@@ -6,6 +6,7 @@ module.exports = {
       textColor: {
         primary: "#2c2e2f",
         secondary: "#0070ba",
+        dark: "#5c5b5b",
       },
       fontSize: {
         xs: "14px",
