@@ -34,7 +34,7 @@ export default function Connect() {
           <span className="w-8 h-8 border border-l-0 border-b-0 border-gray-300 absolute transform rotate-45 top-16 right-2"></span>
 
           <div className="text-center">
-            <Image src={connect1} width={170} height={160} />
+            <Image src={connect1} width={170} height={160} alt="logo" />
           </div>
 
           <div className="flex">
@@ -60,7 +60,7 @@ export default function Connect() {
           <span className="w-8 h-8 border border-l-0 border-b-0 border-gray-300 absolute transform rotate-45 top-16 right-2"></span>
 
           <div className="text-center">
-            <Image src={connect2} width={170} height={160} />
+            <Image src={connect2} width={170} height={160} alt="logo" />
           </div>
 
           <div className="flex">
@@ -83,7 +83,7 @@ export default function Connect() {
 
         <div>
           <div className="text-center">
-            <Image src={connect3} width={170} height={160} />
+            <Image src={connect3} width={170} height={160} logo="logo" />
           </div>
 
           <div className="flex">

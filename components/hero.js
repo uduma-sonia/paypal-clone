@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="relative w-full font-main">
       <div>
-        <Image src={hero_img} height={650} />
+        <Image src={hero_img} height={650} alt="logo" />
       </div>
 
       {/* HERO TEXT  */}

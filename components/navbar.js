@@ -18,6 +18,7 @@ export default function Navbar() {
               alt="PayPal Logo"
               width={120}
               height={30}
+              alt="logo"
             />
           </a>
         </div>
