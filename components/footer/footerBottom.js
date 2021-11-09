@@ -3,15 +3,15 @@ export default function FooterBottom() {
     <section style={{ padding: "50px 0px" }}>
       <div className="container mx-auto px-28">
         <div className="text-dark font-semibold text-xs border border-dotted border-t-0 border-l-0 border-r-0 border-gray-600 pb-3 mb-3">
-          <a>Help and Contact</a>
+          <a className="cursor-pointer">Help and Contact</a>
 
-          <a className="mx-5">Fees</a>
+          <a className="mx-5 cursor-pointer">Fees</a>
 
-          <a>Security</a>
+          <a className="cursor-pointer">Security</a>
 
-          <a className="mx-5">Features</a>
+          <a className="mx-5 cursor-pointer">Features</a>
 
-          <a>Shop</a>
+          <a className="cursor-pointer">Shop</a>
         </div>
 
         <div
@@ -19,25 +19,25 @@ export default function FooterBottom() {
           style={{ fontSize: "11px" }}
         >
           <div>
-            <a>About</a>
+            <a className="cursor-pointer">About</a>
 
-            <a className="mx-5">Newsrooms</a>
+            <a className="mx-5 cursor-pointer">Newsrooms</a>
 
-            <a>jobs</a>
+            <a className="cursor-pointer">jobs</a>
 
-            <a className="mx-5">Sitemap</a>
+            <a className="mx-5 cursor-pointer">Sitemap</a>
 
-            <a>Developers</a>
+            <a className="cursor-pointer">Developers</a>
           </div>
 
           <div>
             <a>© 1999–2021 All rights reserved.</a>
 
-            <a className="mx-5">Accessibility</a>
+            <a className="mx-5 cursor-pointer">Accessibility</a>
 
-            <a>Privacy</a>
+            <a className="cursor-pointer">Privacy</a>
 
-            <a className="mx-5">Legal</a>
+            <a className="mx-5 cursor-pointer">Legal</a>
           </div>
         </div>
 

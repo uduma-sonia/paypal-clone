@@ -1,6 +1,9 @@
 import Image from "next/image";
+import { useRouter } from "next/dist/client/router";
 
 export default function Navbar() {
+  const router = useRouter();
+
   return (
     <section
       className="px-40 bg-white absolute w-full font-main"
@@ -30,7 +33,10 @@ export default function Navbar() {
         </div>
 
         <div style={{ fontSize: "11px" }}>
-          <button className="tracking-tighter mr-4 font-bold text-secondary border border-primary rounded-full py-2 px-5">
+          <button
+            onClick={() => router.push("/signin")}
+            className="tracking-tighter mr-4 font-bold text-secondary border border-primary rounded-full py-2 px-5"
+          >
             Log In
           </button>
 
