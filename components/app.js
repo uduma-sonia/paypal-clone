@@ -6,7 +6,7 @@ import Connect from "./connect";
 export default function Components() {
   return (
     <div style={{ overflowX: "hidden" }}>
-      {/* <Navbar /> */}
+      <Navbar />
       <Hero />
       <Online />
       <Connect />
