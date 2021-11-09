@@ -14,10 +14,11 @@ module.exports = {
       fontFamily: {
         main: "Open Sans, sans-serif",
       },
-      backgroundColor: (theme) => ({
+      backgroundColor: () => ({
         primary: "#0070ba",
         primarytwo: "#005ea6",
         secondary: "#f7f9fa",
+        blue: "#009cde",
       }),
       borderColor: {
         primary: "#0070ba",

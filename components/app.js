@@ -2,6 +2,7 @@ import Hero from "./hero";
 import Navbar from "./navbar";
 import Online from "./online";
 import Connect from "./connect";
+import Join from "./join";
 
 export default function Components() {
   return (
@@ -10,6 +11,7 @@ export default function Components() {
       <Hero />
       <Online />
       <Connect />
+      <Join />
     </div>
   );
 }
