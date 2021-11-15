@@ -1,12 +1,15 @@
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 export default function Login() {
+  const router = useRouter();
+
   return (
     <section className="h-screen">
-      <div className="flex justify-center flex-col h-full items-center">
+      <div className="flex justify-center h-full md:items-center items-start">
         <div
-          className="p-10 rounded"
-          style={{ width: "410px", border: "1px solid #eaeced" }}
+          className="p-10 rounded md:border border-gray-200"
+          style={{ width: "410px" }}
         >
           <div className="text-center mb-3">
             <Image
@@ -58,6 +61,7 @@ export default function Login() {
           <button
             className="rounded bg-gray text-primary font-semibold text-sm hover:bg-graytwo text-white w-full"
             style={{ height: "42px" }}
+            onClick={() => router.push("/signup")}
           >
             Sign Up
           </button>

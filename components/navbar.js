@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useRouter } from "next/dist/client/router";
+import logo from "../images/logo.png";
 
 export default function Navbar() {
   const router = useRouter();
@@ -11,19 +12,14 @@ export default function Navbar() {
     >
       <div className="flex items-center h-full justify-between">
         <div>
-          <a
-            href="https://www.paypal.com/c2/webapps/mpp/paypal-popup?locale.x=en_C2"
-            title="PayPal"
-            onClick="javascript:window.open('https://www.paypal.com/c2/webapps/mpp/paypal-popup?locale.x=en_C2','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;"
-          >
-            <Image
-              src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-150px.png"
-              alt="PayPal Logo"
-              width={120}
-              height={30}
-              alt="logo"
-            />
-          </a>
+          <Image
+            // src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-150px.png"
+            src={logo}
+            alt="PayPal Logo"
+            width={120}
+            height={30}
+            alt="logo"
+          />
         </div>
 
         <div>
@@ -40,7 +36,10 @@ export default function Navbar() {
             Log In
           </button>
 
-          <button className="tracking-tigher font-bold text-white rounded-full py-2 px-5 bg-primary hover:bg-primarytwo">
+          <button
+            onClick={() => router.push("/signup")}
+            className="tracking-tigher font-bold text-white rounded-full py-2 px-5 bg-primary hover:bg-primarytwo"
+          >
             Sign Up
           </button>
         </div>
