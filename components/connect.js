@@ -10,7 +10,7 @@ export default function Connect() {
       style={{ padding: "80px 0px" }}
     >
       <div className="text-center mb-10">
-        <h2 className="text-center text-3xl font-normal mb-9">
+        <h2 className="text-center text-3xl font-normal opacity-80 mb-9">
           PayPal connects buyers and sellers.
         </h2>
 
@@ -27,26 +27,26 @@ export default function Connect() {
         </button>
       </div>
 
-      <div className="grid grid-cols-3 gap-4 container mx-auto px-28">
-        <div className="relative">
+      <div className="grid md:grid-cols-3 grid-cols-1 gap-4 container mx-auto md:px-28">
+        <div className="relative border-b-2 border-gray-200 pb-3 md:border-none">
           {/* ARROW  */}
 
-          <span className="w-8 h-8 border border-l-0 border-b-0 border-gray-300 absolute transform rotate-45 top-16 right-2"></span>
+          <span className="w-8 h-8 border border-l-0 border-b-0 border-gray-300 absolute transform rotate-45 top-16 right-2 hidden md:block"></span>
 
           <div className="text-center">
             <Image src={connect1} width={170} height={160} alt="logo" />
           </div>
 
-          <div className="flex">
+          <div className="flex pl-2 md:pl-0">
             <button
-              className="border border-silver w-10 h-10 rounded-full font-semibold"
+              className="border border-silver w-12 h-10 rounded-full font-semibold"
               style={{ fontSize: "13px" }}
             >
               1
             </button>
 
             <p
-              className="text-xs font-semibold pl-5"
+              className="text-xs font-semibold pl-5 pr-3"
               style={{ fontSize: "13px" }}
             >
               {" "}
@@ -56,16 +56,16 @@ export default function Connect() {
           </div>
         </div>
 
-        <div className="relative">
-          <span className="w-8 h-8 border border-l-0 border-b-0 border-gray-300 absolute transform rotate-45 top-16 right-2"></span>
+        <div className="relative border-b-2 border-gray-200 pb-3 md:border-none">
+          <span className="w-8 h-8 border border-l-0 border-b-0 border-gray-300 absolute transform rotate-45 top-16 right-2 hidden md:block"></span>
 
           <div className="text-center">
             <Image src={connect2} width={170} height={160} alt="logo" />
           </div>
 
-          <div className="flex">
+          <div className="flex border border-gray-900 pl-2 md:pl-0 items-center md:items-center\">
             <button
-              className="border border-silver w-10 h-10 rounded-full font-semibold"
+              className="border border-silver w-12 h-10 rounded-full font-semibold"
               style={{ fontSize: "13px" }}
             >
               2

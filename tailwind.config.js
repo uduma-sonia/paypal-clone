@@ -29,6 +29,9 @@ module.exports = {
         silver: "silver",
         input: "#9da3a6",
       },
+      height: {
+        xl: "545px",
+      },
     },
   },
   variants: {
