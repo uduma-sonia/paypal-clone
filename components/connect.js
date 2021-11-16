@@ -63,7 +63,7 @@ export default function Connect() {
             <Image src={connect2} width={170} height={160} alt="logo" />
           </div>
 
-          <div className="flex border border-gray-900 pl-2 md:pl-0 items-center md:items-center\">
+          <div className="flex border border-gray-900 pl-2 md:pl-0 items-center md:items-center">
             <button
               className="border border-silver w-12 h-10 rounded-full font-semibold"
               style={{ fontSize: "13px" }}
