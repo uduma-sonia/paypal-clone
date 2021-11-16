@@ -12,6 +12,7 @@ module.exports = {
       fontSize: {
         xs: "14px",
         xxs: "12px",
+        xls: "13px",
       },
       fontFamily: {
         main: "Open Sans, sans-serif",
