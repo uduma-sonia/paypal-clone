@@ -6,11 +6,16 @@ export default function Hero() {
   return (
     <section className="relative w-full font-main">
       <div className="h-xl relative hidden md:block">
-        <Image layout="fill" src={hero_img} alt="logo" placeholder="blur" />
+        <Image
+          layout="fill"
+          src={hero_img}
+          alt="hero-image"
+          placeholder="blur"
+        />
       </div>
 
       <div className="relative h-96 md:hidden">
-        <Image src={hero_img_mobile} layout="fill" />
+        <Image src={hero_img_mobile} layout="fill" alt="hero-image" />
       </div>
 
       {/* HERO TEXT  */}

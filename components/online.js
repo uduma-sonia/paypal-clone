@@ -12,7 +12,7 @@ export default function Online() {
       </h2>
 
       <div className="">
-        <Image src={online_img} />
+        <Image src={online_img} alt="avatar" />
       </div>
 
       <h3 className="mt-3 text-2xl">Individuals</h3>

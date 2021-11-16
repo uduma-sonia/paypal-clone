@@ -17,7 +17,7 @@ export default function Login() {
               alt="PayPal Logo"
               width={95}
               height={26}
-              alt="logo"
+              alt="avatar"
             />
           </div>
 
