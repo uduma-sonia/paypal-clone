@@ -83,7 +83,7 @@ export default function Connect() {
 
         <div>
           <div className="text-center">
-            <Image src={connect3} width={170} height={160} logo="logo" />
+            <Image src={connect3} width={170} height={160} alt="logo" />
           </div>
 
           <div className="flex">
