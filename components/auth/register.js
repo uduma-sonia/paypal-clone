@@ -9,10 +9,10 @@ export default function Register() {
       <div className="flex justify-center">
         <div style={{ width: "470px" }}>
           <div className="flex justify-between items-center">
-            <p>Flag</p>
+            {/* <p>Flag</p> */}
 
             <div className="cursor-pointer" onClick={() => router.push("/")}>
-              <Image src={p_logo} width={55} height={45} alt="logo" />
+              <Image src={p_logo} width={55} height={43} alt="logo" />
             </div>
 
             <button
@@ -49,7 +49,7 @@ export default function Register() {
               to confirm your phone number. Message and data rates may apply.
             </p>
 
-            <button className="text-white text-xs font-semibold bg-primary hover:bg-primarytwo rounded-full py-3 px-20">
+            <button className="text-white text-xs font-semibold bg-primary hover:bg-primarytwo rounded-full py-3 px-16">
               Next
             </button>
           </div>
